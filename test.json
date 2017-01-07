@@ -1,0 +1,117 @@
+{
+  "date": "2016/12/27",
+  "persons": [
+    {
+      "id": "1",
+      "facts": [
+        { "type": "Underclass" },
+        { "type": "Birth", "date": "1940" }
+      ],
+      "gender": "Male"
+    },
+    {
+      "id": "2",
+      "situations": {
+        "入獄": true
+      },
+      "facts": [
+        { "type": "Birth", "date": "1945" },
+        { "type": "Arrest" }
+      ],
+      "gender": "Female"
+    },
+    {
+      "id": "4",
+      "situations": {
+        "重度智障": true
+      },
+      "age": 5,
+      "gender": "Female"
+    },
+    {
+      "id": "4",
+      "situations": {
+        "重度智障": true
+      },
+      "age": 67,
+      "gender": "Female"
+    },
+    {
+      "id": "6",
+      "situations": {
+        "重度智障": true
+      },
+      "age": 67,
+      "gender": "Female"
+    },
+    {
+      "id": "8",
+      "age": 8,
+      "gender": "Female"
+    },
+    {
+      "id": "9",
+      "age": 8,
+      "gender": "Female"
+    }
+  ],
+
+  "relationships": [
+    {
+      "id": "20",
+      "type": "Couple",
+      "person1": "1",
+      "person2": "2",
+      "facts": [
+        { "type": "Marriage" }
+      ]
+    },
+    {
+      "id": "21",
+      "type": "ParentChild",
+      "person1": "1",
+      "person2": "4"
+    },
+    {
+      "id": "21",
+      "type": "ParentChild",
+      "person1": "1",
+      "person2": "8"
+    },
+    {
+      "id": "21",
+      "type": "ParentChild",
+      "person1": "1",
+      "person2": "9"
+    },
+    {
+      "id": "21",
+      "type": "ParentChild",
+      "person1": "2",
+      "person2": "4"
+    },
+    {
+      "id": "21",
+      "type": "ParentChild",
+      "person1": "2",
+      "person2": "8"
+    },
+    {
+      "id": "21",
+      "type": "ParentChild",
+      "person1": "2",
+      "person2": "9"
+    },
+    {
+      "id": "22",
+      "type": "MultipleBirth",
+      "persons": ["8", "9"]
+    },
+    {
+      "id": "23",
+      "type": "ParentChild",
+      "person1": "6",
+      "person2": "2"
+    }
+  ]
+}
