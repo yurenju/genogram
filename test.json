@@ -5,7 +5,7 @@
       "id": "1",
       "facts": [
         { "type": "Underclass" },
-        { "type": "Birth", "date": "1940" }
+        { "type": "Birth", "date": 1940 }
       ],
       "gender": "Male"
     },
@@ -15,7 +15,7 @@
         "入獄": true
       },
       "facts": [
-        { "type": "Birth", "date": "1945" },
+        { "type": "Birth", "date": 1945 },
         { "type": "Arrest" }
       ],
       "gender": "Female"
